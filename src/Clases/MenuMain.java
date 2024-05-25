@@ -17,11 +17,12 @@ public class MenuMain {
         Libros libro = new Libros();
         ColaPrestamos prestamo = new ColaPrestamos();
         ColaPrestamos cola = new ColaPrestamos();
+        
+        JOptionPane.showMessageDialog(null, "Bienvenido a la Biblioteca Virtual");
                                 
         mensaje_ventana_principal =  
-                    """
-                    Bienvenido a la biblioteca.
-                    Accede e interactua con los recursos que necesites.
+                    """                    
+                    Biblioteca.
                     
                     MEN\u00da:
                     
